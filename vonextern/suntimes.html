@@ -1,0 +1,25 @@
+<html lang="de">
+<script src="suntimes.js"></script>
+<script>
+var lat="53.225319";
+var lng="8.594034";
+var tz=2;
+var test = suntimes(lat, lng, tz)
+
+//let times = suntimes(input_lat, input_lng);
+let times =suntimes(lat, lng, tz)
+let sunrise_hour = Math.floor(times[0]);
+let sunrise_minute = (times[0] - Math.floor(times[0])) * 60;
+
+let sundown_hour = Math.floor(times[1]);
+let sundown_minute = (times[1] - Math.floor(times[1])) * 60;
+
+
+sonnenaufgang = (sunrise_hour+":"+Math.floor(sunrise_minute))
+sonnenuntergang (sundown_hour+":"+Math.floor(sundown_minute))
+
+
+
+
+
+</script>

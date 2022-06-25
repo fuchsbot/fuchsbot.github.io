@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, max-image-preview:none, notranslate" />
+	<meta charset="utf-8" />
+	<title>Fuchsbot: Leaflet-Karte mit OpenStreetMap</title>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦊'</text></svg>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="dateien/leaflet.css">
+    <script src="dateien/leaflet.js"></script>
+</head>
+<body>
+
+<div id="map" style="width: 100vw; height: 100vh; position:absolute;top:0px;left:0px;"></div>
+<script>
+	var map = L.map('map').setView([53.075465, 8.808289], 8);
+
+	var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		//maxZoom: 15,
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	}).addTo(map);
+	
+	/*
+	var marker = L.marker([[--LAT, ---LNG]).addTo(map)
+		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+
+	var circle = L.circle([--LAT, ---LNG], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 50
+	}).addTo(map).bindPopup('I am a circle.');
+*/
+/*
+	var polygon = L.polygon(
+	[
+		[[--LAT, ---LNG],
+		[[--LAT, ---LNG],
+		[[--LAT, ---LNG],
+		[[--LAT, ---LNG],
+		
+	]).addTo(map).bindPopup('I am a polygon.');
+*/
+	var popup = L.popup()
+		//.setLatLng([--LAT, ---LNG])
+		//.setContent('I am a standalone popup.')
+		//.openOn(map);
+		
+	function onMapClick(e) {
+	var koordinaten = e.latlng.toString();
+	var koordinaten = koordinaten.split(",");
+	var lati = koordinaten[0].slice(7);
+	var lati = lati.slice(0,7);
+	var longi = koordinaten[1].slice(0,7);
+		popup
+			.setLatLng(e.latlng)
+			//.setContent('You clicked the map at ' + e.latlng.toString())
+			//.setContent('Koordinaten:' +koordinaten.slice(7,-1))
+			.setContent('Koordinaten: ' +lati+", "+longi)
+			.openOn(map);
+	}
+
+// Comment this out by adding "//" at the start of the next line here
+	map.on('click', onMapClick);
+</script>
+
+</body>
+</html>
