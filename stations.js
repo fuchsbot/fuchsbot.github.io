@@ -862,52 +862,52 @@ chat.station_ffn = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://player.ffn.de/radioffn.mp3\');">FFN Radio',
+					text: text_stationclick+'http://stream.ffn.de/ffn/mp3-192/\');">FFN Radio',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffnhits.mp3\');">FFN Hits',
+					text: text_stationclick+'https://ffn-de-hz-fal-stream09-cluster01.radiohost.de/ffn-hits_mp3-192\');">FFN Hits',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffnrockt.mp3\');">FFN Rockt',
+					text: text_stationclick+'https://ffn-stream26.radiohost.de/ffn-rockt_mp3-192\');">FFN Rockt',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffngold.mp3\');">FFN Gold',
+					text: text_stationclick+'https://ffn-stream22.radiohost.de/ffn-gold_mp3-192\');">FFN Gold',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffn80er.mp3\');">FFN 80er',
+					text: text_stationclick+'https://ffn-stream27.radiohost.de/ffn-80er_mp3-192\');">FFN 80er',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffn90er.mp3\');">FFN 90er',
+					text: text_stationclick+'http://stream.ffn.de/neunziger/mp3-192/\');">FFN 90er',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffncomedy.mp3\');">FFN Comedy',
+					text: text_stationclick+'http://stream.ffn.de/ffn-comedy/mp3-192/\');">FFN Comedy',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/ffntannenbaum.mp3\');">FFN Tannenbaum',
+					text: text_stationclick+'http://stream.ffn.de/tannenbaum/mp3-192/\');">FFN Tannenbaum',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/radiobollerwagen.mp3\');">FFN Radio Bollerwagen',
+					text: text_stationclick+'http://stream.ffn.de/radiobollerwagen/mp3-192/\');">FFN Radio Bollerwagen',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://player.ffn.de/peppermintfm.mp3\');">FFN Peppermint',
+					text: text_stationclick+'http://stream.ffn.de/peppermintfm/mp3-192/\');">FFN Peppermint',
 					next: 'station_ffn_after'
 					},
 					

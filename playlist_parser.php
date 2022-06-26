@@ -1,6 +1,20 @@
 <pre><?php
 
 /*
+"FFN Hits" => "http://player.ffn.de/ffnhits.m3u",
+"FFN Rockt" => "http://player.ffn.de/ffnrockt.m3u",
+"FFN Gold" => "http://player.ffn.de/ffngold.m3u",
+"FFN 80er" => "http://player.ffn.de/ffn80er.m3u",
+"FFN 90er" => "http://player.ffn.de/ffn90er.m3u",
+"FFN Comedy" => "http://player.ffn.de/ffncomedy.m3u",
+"FFN Tannenbaum" => "http://player.ffn.de/ffntannenbaum.m3u" ,
+"FFN Radio Bollerwagen" => "http://player.ffn.de/radiobollerwagen.m3u" ,
+"FFN Peppermint" => "http://player.ffn.de/peppermintfm.m3u",
+*/
+
+
+
+/*
 	Some fav tracks, heard in the radio
 	Elegy - Robot Invasion
 	Tacit - Dangerous Pollution
@@ -422,16 +436,16 @@ define('station_ffh', array(
 ));
 
 define('station_ffn', array(	
-"FFN Radio" => "http://player.ffn.de/radioffn.mp3",
-"FFN Hits" => "http://player.ffn.de/ffnhits.mp3",
-"FFN Rockt" => "http://player.ffn.de/ffnrockt.mp3",
-"FFN Gold" => "http://player.ffn.de/ffngold.mp3",
-"FFN 80er" => "http://player.ffn.de/ffn80er.mp3",
-"FFN 90er" => "http://player.ffn.de/ffn90er.mp3",
-"FFN Comedy" => "http://player.ffn.de/ffncomedy.mp3",
-"FFN Tannenbaum" => "http://player.ffn.de/ffntannenbaum.mp3" ,
-"FFN Radio Bollerwagen" => "http://player.ffn.de/radiobollerwagen.mp3" ,
-"FFN Peppermint" => "http://player.ffn.de/peppermintfm.mp3",
+"FFN Radio" => "http://stream.ffn.de/ffn/mp3-192/?", //"http://player.ffn.de/radioffn.m3u",
+"FFN Hits" => "https://ffn-de-hz-fal-stream09-cluster01.radiohost.de/ffn-hits_mp3-192", // "http://player.ffn.de/ffnhits.m3u",
+"FFN Rockt" => "https://ffn-stream26.radiohost.de/ffn-rockt_mp3-192?", //"http://player.ffn.de/ffnrockt.m3u",
+"FFN Gold" => "https://ffn-stream22.radiohost.de/ffn-gold_mp3-192?", // "http://player.ffn.de/ffngold.m3u",
+"FFN 80er" => "https://ffn-stream27.radiohost.de/ffn-80er_mp3-192?", //"http://player.ffn.de/ffn80er.m3u",
+"FFN 90er" => "http://stream.ffn.de/neunziger/mp3-192/?", //"http://player.ffn.de/ffn90er.m3u",
+"FFN Comedy" => "http://stream.ffn.de/ffn-comedy/mp3-192/?", //"http://player.ffn.de/ffncomedy.m3u",
+"FFN Tannenbaum" => "http://stream.ffn.de/tannenbaum/mp3-192/?", //"http://player.ffn.de/ffntannenbaum.m3u" ,
+"FFN Radio Bollerwagen" => "http://stream.ffn.de/radiobollerwagen/mp3-192/?", //"http://player.ffn.de/radiobollerwagen.m3u" ,
+"FFN Peppermint" => "http://stream.ffn.de/peppermintfm/mp3-192/?", //"http://player.ffn.de/peppermintfm.m3u",
 ));
 
 function station_curl($node_in,$station){
@@ -446,22 +460,34 @@ foreach($station as $name => $url)
 	
 	
 	
+	
 	$playlist_endungen = array(".m3u", ".pls");
 	$endung = substr($url,strrpos($url,"."));
 	if(in_array($endung,$playlist_endungen)){
 	
+	var_dump($url);
+	//$inhalt = file($url);
+	
+	
+	/*
 	$inhalt = file($url);
+	//print_r($inhalt);exit;
 	for($a=0;$a<count($inhalt);$a++){
 	$inhalt[$a] = trim($inhalt[$a]);
-	if(strpos($inhalt[$a],".mp3") !== false)
+	if(strpos($inhalt[$a],"mp3") !== false)
 	{
 		$inhalt[$a]= substr($inhalt[$a],strpos($inhalt[$a],"http"));
 		$url = $inhalt[$a];
-		
-	}
-}
+	} 
 
-}
+	}
+	*/
+	
+	}
+	
+
+
+
 	
 	if(strpos($url,"?") !== false){$url = substr($url,0,strpos($url,"?"));}
 	$base64name = (base64_encode($name));
