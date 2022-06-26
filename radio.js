@@ -111,6 +111,10 @@ chat.radio_genre_pop = {
 	text: 'Alles klar, Pop ist gewählt. Dann such dir mal einen Sender aus 😘',
 	options: [
 					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3\');">NDR 90,3</span>',
+					next: 'station_ndr903_after'
+					},
+					{
 					text: 'NDR 1',
 					next: 'station_ndr1'
 					},
@@ -119,9 +123,30 @@ chat.radio_genre_pop = {
 					next: 'station_ndr1_wellenord'
 					},
 					{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3\');">NDR 90,3</span>',
-					next: 'station_ndr903_after'
+					text: 'NDR 2',
+					next: 'station_ndr2'
 					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3\');">NDR Blue</span>',
+					next: 'station_ndrblue_after'
+					},
+					{
+					text: 'NDR Info',
+					next: 'station_ndrinfo'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3\');">N-JOY</span>',
+					next: 'station_njoy_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3\');">NDR Kultur</span>',
+					next: 'station_ndrkultur_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3\');">NDR Schlager</span>',
+					next: 'station_ndrschlager_after'
+					},
+					
 				]
 }
 
@@ -202,11 +227,6 @@ chat.station_ndr1 = {
 }
 
 
-
-
-
-
-
 chat.station_ndr1_wellenord = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
@@ -234,6 +254,30 @@ chat.station_ndr1_wellenord = {
 				]
 }
 
+chat.station_ndr2 = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3\');">NDR 2 - Niedersachsen</span>',
+					next: 'station_ndr2_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3\');">NDR 2 - Hamburg</span>',
+					next: 'station_ndr2_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/mecklenburgvorpommern/mp3/128/stream.mp3\');">NDR 2 - Mecklenburg-Vorpommern</span>',
+					next: 'station_ndr2_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/schleswigholstein/mp3/128/stream.mp3\');">NDR 2 - Schleswig-Holstein</span>',
+					next: 'station_nd2_after'
+					},
+				
+					
+				]
+}
+
 chat.station_ndr903 = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
@@ -241,10 +285,105 @@ chat.station_ndr903 = {
 					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3\');">NDR 90,3</span>',
 					next: 'station_ndr903_after'
 					},
-					
-
 				]
 }
+
+
+chat.station_ndrinfo = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3\');">NDR Info - Niedersachsen</span>',
+					next: 'station_ndrinfo_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3\');">NDR Info - Hamburg</span>',
+					next: 'station_ndrinfo_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3\');">NDR Info - Mecklenburg-Vorpommern</span>',
+					next: 'station_ndrinfo_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3\');">NDR Info - Mecklenburg-Vorpommern</span>',
+					next: 'station_ndrinfo_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3\');">NDR Info - Schleswig-Holstein</span>',
+					next: 'station_ndrinfo_after'
+					},
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3\');">NDR Info Spezial</span>',
+					next: 'station_ndrinfo_after'
+					},
+				]
+}
+
+chat.station_ndrkultur = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3\');">NDR Kultur</span>',
+					next: 'station_ndrkultur_after'
+					},
+				]
+}
+
+chat.station_ndrblue = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3\');">NDR Blue</span>',
+					next: 'station_ndrblue_after'
+					},
+				]
+}
+
+chat.station_ndrblue_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_ndrblue'
+					}]).concat(radio_after)
+}
+
+chat.station_ndrschlager = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3\');">NDR Schlager</span>',
+					next: 'station_ndrschlager_after'
+					},
+				]
+}
+
+chat.station_ndrschlager_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_ndrschlager'
+					}]).concat(radio_after)
+}
+
+chat.station_njoy = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+					{
+					text: text_stationclick+'http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3\');">N-JOY</span>',
+					next: 'station_njoy_after'
+					},
+				]
+}
+
+chat.station_njoy_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_njoy'
+					}]).concat(radio_after)
+}
+
+
 
 chat.station_hirschmilch_after = {
 	text: text_playpausebutton,
@@ -262,6 +401,14 @@ chat.station_ndr1_after = {
 					}]).concat(radio_after)
 }
 
+chat.station_ndrinfo_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_ndrinfo'
+					}]).concat(radio_after)
+}
+
 chat.station_ndr903_after = {
 	text: text_playpausebutton,
 	options: 	([{
@@ -275,6 +422,22 @@ chat.station_ndr1_wellenord_after = {
 	options: 	([{
 					text: anderen_kanal_auswaehlen,
 					next: 'station_ndr1_wellenord'
+					}]).concat(radio_after)
+}
+
+chat.station_ndr2_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_ndr2'
+					}]).concat(radio_after)
+}
+
+chat.station_ndrkultur_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_ndrkultur'
 					}]).concat(radio_after)
 }
 
