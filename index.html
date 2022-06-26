@@ -52,32 +52,6 @@ function randomnr()
 }
 
 
-
-function wetterget(bundesland)
-{
-	randomnummer = randomnr();
-	return('<button id="wetterbutton'+randomnummer+'" onclick="wetterget2(&apos;'+bundesland+'&apos;,&apos;'+randomnummer+'&apos;)">Klick hier, um die Wetterinfos abzurufen</button><p id="info'+randomnummer+'">Falls das Wetter nicht angezeigt wird, wähle ein anderes Bundesland oder lade die Seite neu.</p><div id="wettershow'+randomnummer+'"></div>');
-	//return(wetterget2("ni"));
-}
-
-
-	function wetterget2(bundesland,randomnummer)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", "vonextern/dwd_fuer_peekobot.php?bundesland="+bundesland, false ); // false for synchronous request
-    xmlHttp.send( null );
-    //return xmlHttp.responseText;
-	var info = "info"+randomnummer;
-	var wetterbutton = "wetterbutton"+randomnummer;
-	var wettershow = "wettershow"+randomnummer;
-	//alert(wettershow);
-	document.getElementById(info).style.display="none";
-	document.getElementById(wetterbutton).style.display="none";
-	document.getElementById(wettershow).innerHTML = xmlHttp.responseText;
-	//alert("okay");
-}
-
-
 function zufallszahl(){
 	return(Math.floor(Math.random() * 100001));
 }
@@ -114,14 +88,13 @@ if(stunde>=18 && stunde<=23){verabschiedung = "Hab noch einen schönen Abend �
 <script src="conversation.js"></script>
 <script src="rezepte.js"></script>
 <script src="witze.js"></script>
-<!--<script src="gedichte.js?decache=<?php echo $uniqid; ?>"></script>-->
+<script src="wetter.js"></script>
+<!--<script src="gedichte.js"></script>-->
 <script src="radio.js"></script>
 <script src="vonextern/howler.core.js"></script>
-
-
-<script type="text/javascript" src="vonextern/alphacrypt2/alphac.js?decache=<?php echo $uniqid; ?>"></script>
-<script type="text/javascript" src="vonextern/alphacrypt2/md5.js?decache=<?php echo $uniqid; ?>"></script>
-<script type="text/javascript" src="vonextern/alphacrypt2/timer.js?decache=<?php echo $uniqid; ?>"></script>
+<script type="text/javascript" src="vonextern/alphacrypt2/alphac.js"></script>
+<script type="text/javascript" src="vonextern/alphacrypt2/md5.js"></script>
+<script type="text/javascript" src="vonextern/alphacrypt2/timer.js?"></script>
 <script type="text/javascript">
 function process(on) {
 var fe = document.fe;
@@ -136,13 +109,13 @@ var r = Math.round(d / t * 1000);
 fe.time.value = r + 'B/s ' + t + 'ms ' + d + 'B';
 }
 </script>
-<script src="cryptit.js?decache=<?php echo $uniqid; ?>"></script>
+<script src="cryptit.js"></script>
 
 
-<script src="addons/quiz/quiz_de.js?decache=<?php echo $uniqid; ?>"></script>
+<script src="addons/quiz/quiz_de.js"></script>
 
 
-<script src="peekobot.js?decache=<?php echo $uniqid; ?>"></script>
+<script src="peekobot.js"></script>
 
 	
 </body>

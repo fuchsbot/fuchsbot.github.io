@@ -1,3 +1,4 @@
+
 function zufallszahl(){
 	return(Math.floor(Math.random() * 100001));
 }
@@ -49,6 +50,7 @@ const chat = {
         text: begruessung+', ich bin ein kleiner Fuchsbot 🦊+🤖',
         //text: random_greeting(),
         next: 'frage1'
+        //next: 'wetter'
 		//next: 'radio_kategorie_wahl'
         //next: 'station_hirschmilch'
         
@@ -152,184 +154,8 @@ const chat = {
         ]
     },
 	
-	  wetter: {
-        text: 'Von welchem Bundesland?',
-        options: [
-			
-			{
-                text: 'Baden-Württemberg',
-                next: 'wetter_bw'
-            },
-		
-		
-			{
-                text: 'Bayern',
-                next: 'wetter_by'
-            },	
-
-			{
-                text: 'Berlin',
-                next: 'wetter_be'
-            },					
-			
-			{
-                text: 'Brandenburg',
-                next: 'wetter_bb'
-            },					
-		
-			{
-                text: 'Bremen',
-                next: 'wetter_hb'
-            },
-
-			{
-                text: 'Hamburg',
-                next: 'wetter_hh'
-            },
-
-			{
-                text: 'Hessen',
-                next: 'wetter_he'
-            },		
-
-			{
-                text: 'Mecklenburg-Vorpommern',
-                next: 'wetter_mv'
-            },		
-
-            {
-                text: 'Nordrhein-Westfalen',
-                next: 'wetter_nw'
-            },  
-			{
-                text: 'Niedersachsen',
-                next: 'wetter_ni'
-            },
-			
-			{
-                text: 'Rheinland-Pfalz',
-                next: 'wetter_rp'
-            },					
-			
-			{
-                text: 'Saarland',
-                next: 'wetter_sl'
-            },					
-			
-			{
-                text: 'Sachsen',
-                next: 'wetter_sn'
-            },			
-			
-			{
-                text: 'Sachsen-Anhalt',
-                next: 'wetter_st'
-            },					
-			
-			{
-                text: 'Schleswig-Holstein',
-                next: 'wetter_sh'
-            },		
-
-			{
-                text: 'Thüringen',
-                next: 'wetter_th'
-            },	
-
-			
-
-			/*
-            {
-                text: 'Karte',
-                url: '../'
-            },
-			*/
-        ]
-    },
-
 	
-	wetter_nw: {
-        text: wetterget("nw"),
-		next: 'wetter_after'
-    },
-	wetter_ni: {
-        text: wetterget("ni"),
-		next: 'wetter_after'
-    },
-    wetter_hb: {
-		 text: wetterget("ni"),
-		next: 'wetter_after'
-    },
-    wetter_sh: {
-        text: wetterget("sh"),
-		next: 'wetter_after'
-    },
-    wetter_hh: {
-        text: wetterget("sh"),
-		next: 'wetter_after'
-    },
-    wetter_st: {
-       text: wetterget("st"),
-		next: 'wetter_after'
-    },
-    wetter_sn: {
-        text: wetterget("sn"),
-		next: 'wetter_after'
-    },
-    wetter_th: {
-       text: wetterget("th"),
-		next: 'wetter_after'
-    },
-	    wetter_by: {
-       text: wetterget("by"),
-		next: 'wetter_after'
-    },
-	    wetter_bw: {
-        text: wetterget("bw"),
-		next: 'wetter_after'
-    },
-		    wetter_he: {
-        text: wetterget("he"),
-		next: 'wetter_after'
-    },
-		    wetter_rp: {
-       text: wetterget("rp"),
-		next: 'wetter_after'
-    },
-		    wetter_sl: {
-        text: wetterget("sl"),
-		next: 'wetter_after'
-    },
-			    wetter_bb: {
-       text: wetterget("bb"),
-		next: 'wetter_after'
-    },
-			    wetter_be: {
-       text: wetterget("bb"),
-		next: 'wetter_after'
-    },	
-	wetter_mv: {
-       text: wetterget("mv"),
-		next: 'wetter_after'
-    },
-	
-	
-	 wetter_after: {
-        text: 'Bitteschön, das Wetter 😃',
-		next: 'frage_beenden'
-		/*
-        options: [
-            {
-                text: 'weiter',
-                next: 'frage1',
-            },
-		]
-		*/
-    },
-    response2: {
-        text: 'As you wish, sir'
-    },
-    antwort1_wasmachen: {
+	   antwort1_wasmachen: {
         text: 'Noch nicht ganz so viel 😅 Bisher kann ich dir das aktuelle Wetter nennen und habe schon erste Kochrezepte für dich. Außerdem kann ich dir ein paar Witze erzählen.',
 		        options: [
             {
