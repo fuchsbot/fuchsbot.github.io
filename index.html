@@ -23,7 +23,18 @@
         }
     </style>
     <!-- Peekobot styles -->
-    <link rel="stylesheet" href="peekobot.css?decache=<?php echo $uniqid; ?>">
+	<script>
+	function cssload(dieshier,cssurl)
+	{
+	randzahl = Math.floor(Math.random() * 1000001);
+	dieshier.href = cssurl+"?decache="+randzahl;
+	}
+	
+
+	</script>
+
+    <link rel="stylesheet" onload="cssload(this,'peekobot.css');" href="x.css">
+    
 <body>
 
     <div id="peekobot-container">
@@ -79,9 +90,69 @@ if(stunde>=12 && stunde<=14){verabschiedung = "Hab noch einen schönen Mittag �
 if(stunde>=15 && stunde<=17){verabschiedung = "Hab noch einen schönen Nachmittag 😊";}
 if(stunde>=18 && stunde<=23){verabschiedung = "Hab noch einen schönen Abend 😊";}
 
+
+
+
+
+
+/**
+ * Used to load and execute javascript file. an be used cross-domain seamlessly.
+ * @param file JS file name
+ * @param callback Subscribe to get notified when script file is loaded
+ 
+ Source:
+ https://www.codeproject.com/Articles/5310336/Dynamically-Loading-a-JavaScript-File
+ **/
+function require(file, callback) {
+  // create script element
+  
+  
+  var script = document.createElement("script");
+  //script.src = file+"?decache="+randnummera;
+  script.src = file+"?decace="+Math.floor(Math.random() * 1000000);
+
+  // monitor script loading
+  // IE < 7, does not support onload
+  if (callback) {
+    script.onreadystatechange = function () {
+      if (script.readyState === "loaded" || script.readyState === "complete") {
+        // no need to be notified again
+        script.onreadystatechange = null;
+        // notify user
+        callback();
+      }
+    };
+
+    // other browsers
+    script.onload = function () {
+      callback();
+    };
+  }
+
+  // append and execute script
+  document.documentElement.firstChild.appendChild(script);
+}
+
+/*
+document.getElementById("loadButton").onclick = function () {
+  <script src="remote.js", function () {
+    sayHello("Mohammad");
+  });
+};
+*/
+
+
+
+
+
+  
+  
+
+
+
+
+
 </script>
-
-
 
 <script src="vonextern/suntimes.js"></script>
 <script src="vonextern/moontimes.js"></script>
@@ -89,13 +160,36 @@ if(stunde>=18 && stunde<=23){verabschiedung = "Hab noch einen schönen Abend �
 <script src="rezepte.js"></script>
 <script src="witze.js"></script>
 <script src="wetter.js"></script>
-<!--<script src="gedichte.js"></script>-->
 <script src="radio.js"></script>
+<script src="stations.js"></script>
 <script src="vonextern/howler.core.js"></script>
-<script type="text/javascript" src="vonextern/alphacrypt2/alphac.js"></script>
-<script type="text/javascript" src="vonextern/alphacrypt2/md5.js"></script>
-<script type="text/javascript" src="vonextern/alphacrypt2/timer.js?"></script>
-<script type="text/javascript">
+<script src="vonextern/alphacrypt2/alphac.js"></script>
+<script src="vonextern/alphacrypt2/md5.js"></script>
+<script src="vonextern/alphacrypt2/timer.js"></script>
+<script src="cryptit.js"></script>
+<script src="addons/quiz/quiz_de.js"></script>
+<script src="peekobot.js"></script>
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+<!--
+<script src="vonextern/suntimes.js"></script>
+-->
+
+<!--<script src="gedichte.js"></script>-->
+
+<script>
 function process(on) {
 var fe = document.fe;
 var ke = fe.key.value;
@@ -109,13 +203,7 @@ var r = Math.round(d / t * 1000);
 fe.time.value = r + 'B/s ' + t + 'ms ' + d + 'B';
 }
 </script>
-<script src="cryptit.js"></script>
 
-
-<script src="addons/quiz/quiz_de.js"></script>
-
-
-<script src="peekobot.js"></script>
 
 	
 </body>
