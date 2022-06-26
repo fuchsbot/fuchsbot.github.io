@@ -49,6 +49,7 @@ const chat = {
         text: begruessung+', ich bin ein kleiner Fuchsbot 🦊+🤖',
         //text: random_greeting(),
         next: 'frage1'
+		//next: 'radio_kategorie_wahl'
         //next: 'station_hirschmilch'
         
         
