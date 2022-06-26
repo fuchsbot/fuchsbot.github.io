@@ -1,20 +1,6 @@
 <pre><?php
 
 /*
-"FFN Hits" => "http://player.ffn.de/ffnhits.m3u",
-"FFN Rockt" => "http://player.ffn.de/ffnrockt.m3u",
-"FFN Gold" => "http://player.ffn.de/ffngold.m3u",
-"FFN 80er" => "http://player.ffn.de/ffn80er.m3u",
-"FFN 90er" => "http://player.ffn.de/ffn90er.m3u",
-"FFN Comedy" => "http://player.ffn.de/ffncomedy.m3u",
-"FFN Tannenbaum" => "http://player.ffn.de/ffntannenbaum.m3u" ,
-"FFN Radio Bollerwagen" => "http://player.ffn.de/radiobollerwagen.m3u" ,
-"FFN Peppermint" => "http://player.ffn.de/peppermintfm.m3u",
-*/
-
-
-
-/*
 	Some fav tracks, heard in the radio
 	Elegy - Robot Invasion
 	Tacit - Dangerous Pollution
