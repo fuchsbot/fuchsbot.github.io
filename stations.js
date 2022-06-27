@@ -1002,3 +1002,332 @@ chat.station_bayerischer_Rundfunk_after = {
 					next: 'station_bayerischer_Rundfunk'
 					}]).concat(radio_after)
 }
+
+chat.station_sunshine_live = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-die2000er-mp3-192-3233898\',\'sunshine live - 2000er\');">sunshine live - 2000er',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sunsl6eifqasv1fngh-mp3-192-9467550\',\'sunshine live - Die 80er\');">sunshine live - Die 80er',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-90er-mp3-hq\',\'sunshine live - 90er\');">sunshine live - 90er',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-90erlive-mp3-hq\',\'sunshine live - 90er LIVE\');">sunshine live - 90er LIVE',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-adedance-mp3-192-4729363\',\'Amsterdam Dance Event - Dance\');">Amsterdam Dance Event - Dance',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-amsterdam-mp3-192-9011779\',\'sunshine live - Bunker\');">sunshine live - Bunker',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-avicii-mp3-192-7164840\',\'sunshine live - Avicii\');">sunshine live - Avicii',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-classics-mp3-hq\',\'sunshine live - Classics\');">sunshine live - Classics',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-adeclub-mp3-192-5875367\',\'sunshine live - Club\');">sunshine live - Club',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-depechemode-mp3-192-6237144\',\'Depeche Mode\');">Depeche Mode',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-dnb-mp3-hq\',\'sunshine live - Drum &amp;n&amp; Bass\');">sunshine live - Drum &amp;n&amp; Bass',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://stream.sunshine-live.de/edm/mp3-192/stream.sunshine-live.de/\',\'sunshine live - EDM\');">sunshine live - EDM',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-eurodance-mp3-192-9832422\',\'sunshine live - Eurodance\');">sunshine live - Eurodance',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-festival-mp3-hq\',\'sunshine live - Festival\');">sunshine live - Festival',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sunslxzzupaaj5xv63-mp3-192-2213578\',\'sunshine live - focus\');">sunshine live - focus',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sunslcheqhs4qtygg6-mp3-192-1498751\',\'sunshine live - Future Bass\');">sunshine live - Future Bass',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-gamescom-mp3-192-5112785\',\'Gamescom FM\');">Gamescom FM',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-gaming-mp3-192-3446518\',\'sunshine live - Gaming\');">sunshine live - Gaming',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-germanlive-mp3-hq\',\'sunshine live - German Techno LIVE\');">sunshine live - German Techno LIVE',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-germantechno-mp3-192-8949784\',\'sunshine live - German Techno\');">sunshine live - German Techno',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://stream.sunshine-live.de/handsup/mp3-192/stream.sunshine-live.de/\',\'sunshine live - Hands Up\');">sunshine live - Hands Up',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-hard-mp3-hq\',\'sunshine live - Hard\');">sunshine live - Hard',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-house-mp3-hq\',\'sunshine live - House\');">sunshine live - House',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-iamraving-mp3-192-6476527\',\'sunshine live - I AM RAVING\');">sunshine live - I AM RAVING',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-ibiza-mp3-192-7872628\',\'sunshine live - Ibiza\');">sunshine live - Ibiza',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-live-mp3-hq\',\'sunshine live - Livestream\');">sunshine live - Livestream',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-lounge-mp3-hq\',\'sunshine live - Lounge\');">sunshine live - Lounge',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-love-mp3-192-8574329\',\'sunshine live - Love\');">sunshine live - Love',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-mayday-mp3-hq\',\'sunshine live - Mayday\');">sunshine live - Mayday',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-melodiclive-mp3-hq\',\'sunshine live - Melodic Beats LIVE\');">sunshine live - Melodic Beats LIVE',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-melodictechno-mp3-192-4167248\',\'sunshine live - Melodic Techno\');">sunshine live - Melodic Techno',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-mixmission-mp3-192-2059291\',\'sunshine live - Mix Mission\');">sunshine live - Mix Mission',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-natureone-mp3-hq\',\'sunshine live - Nature One\');">sunshine live - Nature One',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-newhits-mp3-192-1294829\',\'sunshine live - New Hits\');">sunshine live - New Hits',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-notband-mp3-192-5065649\',\'notband\');">notband',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-party-mp3-192-3345881\',\'sunshine live - Party\');">sunshine live - Party',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-playlist1-mp3-192-2595213\',\'sunshine live - Clubsound Berlin\');">sunshine live - Clubsound Berlin',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-pop-mp3-192-8241940\',\'sunshine live - Pop\');">sunshine live - Pop',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sslpride-mp3-192-1744824\',\'sunshine live and pride\');">sunshine live and pride',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-prodigy-mp3-192-6729062\',\'sunshine live - Nighttime Chill\');">sunshine live - Nighttime Chill',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-quarantaene-mp3-192-3118259\',\'sunshine live - Quarantäne\');">sunshine live - Quarantäne',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-raveonsnow-mp3-192-3338515\',\'Rave On Snow 2018\');">Rave On Snow 2018',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sunslsvbnphi9eo1ze-mp3-192-5247223\',\'sunshine live Corona\');">sunshine live Corona',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-relax-mp3-192-4997432\',\'sunshine live - Relax\');">sunshine live - Relax',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-remix-mp3-192-5723167\',\'sunshine live - Remix\');">sunshine live - Remix',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-playlist2-mp3-192-4542868\',\'sunshine live - Summer Beats\');">sunshine live - Summer Beats',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-techhouse-mp3-192-9113798\',\'sunshine live - Tech House\');">sunshine live - Tech House',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-90santhems-mp3-192-6626822\',\'sunshine live - 90s Anthems\');">sunshine live - 90s Anthems',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-charts-mp3-192-1193432\',\'sunshine live - Charts\');">sunshine live - Charts',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-sunsldfw8j6rqyqnlw-mp3-192-9761542\',\'sunshine live - Afterhour\');">sunshine live - Afterhour',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-chillout-mp3-192-3900120\',\'sunshine live - Chillout\');">sunshine live - Chillout',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-techno-mp3-hq\',\'sunshine live - Techno\');">sunshine live - Techno',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-technolive-mp3-hq\',\'sunshine live - Techno-Live\');">sunshine live - Techno-Live',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-technoqueens-mp3-192-5480812\',\'sunshine live - Techno Queens\');">sunshine live - Techno Queens',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-timewarp-mp3-mq\',\'sunshine live - Time Warp\');">sunshine live - Time Warp',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunshinelive.hoerradar.de/sunshinelive-trance-mp3-hq\',\'sunshine live - Trance\');">sunshine live - Trance',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-tropicalhouse-mp3-192-1152257\',\'sunshine live - Tropical House\');">sunshine live - Tropical House',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-bestof20-mp3-192-8385504\',\'sunshine live - Best of 20 years\');">sunshine live - Best of 20 years',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-classichouse-mp3-192-9589235\',\'sunshine live - Classic & Vocal House\');">sunshine live - Classic & Vocal House',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-vocaltrance-mp3-192-5826863\',\'sunshine live - Vocal Trance\');">sunshine live - Vocal Trance',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-winterchill-mp3-192-4518810\',\'sunshine live - Peaceful Beats\');">sunshine live - Peaceful Beats',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-workout-mp3-192-3330865\',\'sunshine live - Workout\');">sunshine live - Workout',
+					next: 'station_sunshine_live_after'
+					},
+					
+			{
+					text: text_stationclick+'https://sunsl.streamabc.net/sunsl-christmas-mp3-192-7547837\',\'sunshine live - Psytrance\');">sunshine live - Psytrance',
+					next: 'station_sunshine_live_after'
+					},
+					
+			]
+}
+
+chat.station_sunshine_live_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_sunshine_live'
+					}]).concat(radio_after)
+}

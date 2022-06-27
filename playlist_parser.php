@@ -464,6 +464,197 @@ define('station_bayerischer_Rundfunk', array (
 
 ));
 
+define('station_sunshine_live', array(
+		"sunshine live - 2000er" => 
+		"https://stream.sunshine-live.de/2000er/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Die 80er" => 
+		"https://stream.sunshine-live.de/80er/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - 90er" => 
+		"https://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - 90er LIVE" => 
+		"https://stream.sunshine-live.de/90er-live/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"Amsterdam Dance Event - Dance" => 
+		"https://stream.sunshine-live.de/ade18dance/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Bunker" => 
+		"https://stream.sunshine-live.de/amsterdam/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Avicii" => 
+		"https://stream.sunshine-live.de/avicii/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Classics" => 
+		"https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Club" => 
+		"https://stream.sunshine-live.de/club/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"Depeche Mode" => 
+		"https://stream.sunshine-live.de/depechemode/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Drum 'n' Bass" => 
+		"https://stream.sunshine-live.de/dnb/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - EDM" => 
+		"https://stream.sunshine-live.de/edm/mp3-192/stream.sunshine-live.de/",
+
+		"sunshine live - Eurodance" => 
+		"https://stream.sunshine-live.de/eurodance/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Festival" => 
+		"https://stream.sunshine-live.de/festival/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - focus" => 
+		"https://stream.sunshine-live.de/focus/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Future Bass" => 
+		"https://stream.sunshine-live.de/futurebass/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"Gamescom FM" => 
+		"https://stream.sunshine-live.de/gamescom/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Gaming" => 
+		"https://stream.sunshine-live.de/gaming/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - German Techno LIVE" => 
+		"https://stream.sunshine-live.de/german-live/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - German Techno" => 
+		"https://stream.sunshine-live.de/germante/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Hands Up" => 
+		"https://stream.sunshine-live.de/handsup/mp3-192/stream.sunshine-live.de/",
+
+		"sunshine live - Hard" => 
+		"https://stream.sunshine-live.de/hard/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - House" => 
+		"https://stream.sunshine-live.de/house/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - I AM RAVING" => 
+		"https://stream.sunshine-live.de/iamraving/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Ibiza" => 
+		"https://stream.sunshine-live.de/ibiza/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Livestream" => 
+		"https://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Lounge" => 
+		"https://stream.sunshine-live.de/lounge/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Love" => 
+		"https://stream.sunshine-live.de/love/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Mayday" => 
+		"https://stream.sunshine-live.de/mayday/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Melodic Beats LIVE" => 
+		"https://stream.sunshine-live.de/melodic-live/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Melodic Techno" => 
+		"https://stream.sunshine-live.de/melodic-techno/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Mix Mission" => 
+		"https://stream.sunshine-live.de/mixmission/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Nature One" => 
+		"https://stream.sunshine-live.de/natureone/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - New Hits" => 
+		"https://stream.sunshine-live.de/newhits/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"notband" => 
+		"https://stream.sunshine-live.de/notband/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Party" => 
+		"https://stream.sunshine-live.de/party/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Clubsound Berlin" => 
+		"https://stream.sunshine-live.de/playlist1/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Pop" => 
+		"https://stream.sunshine-live.de/pop/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live and pride" => 
+		"https://stream.sunshine-live.de/pride/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Nighttime Chill" => 
+		"https://stream.sunshine-live.de/prodigy/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Quarantäne" => 
+		"https://stream.sunshine-live.de/quarantaene/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"Rave On Snow 2018" => 
+		"https://stream.sunshine-live.de/raveonsnow/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live Corona" => 
+		"https://stream.sunshine-live.de/referencefestival/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Relax" => 
+		"https://stream.sunshine-live.de/relax/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Remix" => 
+		"https://stream.sunshine-live.de/remix/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Summer Beats" => 
+		"https://stream.sunshine-live.de/sp2/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Tech House" => 
+		"https://stream.sunshine-live.de/sp4/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - 90s Anthems" => 
+		"https://stream.sunshine-live.de/sp5/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Charts" => 
+		"https://stream.sunshine-live.de/sp6/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Afterhour" => 
+		"https://stream.sunshine-live.de/sp7/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Chillout" => 
+		"https://stream.sunshine-live.de/sp8/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Techno" => 
+		"https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Techno-Live" => 
+		"https://stream.sunshine-live.de/technolive/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Techno Queens" => 
+		"https://stream.sunshine-live.de/technoqueens/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Time Warp" => 
+		"https://stream.sunshine-live.de/timewarp/mp3-128/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Trance" => 
+		"https://stream.sunshine-live.de/trance/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Tropical House" => 
+		"https://stream.sunshine-live.de/tropicalhouse/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Best of 20 years" => 
+		"https://stream.sunshine-live.de/twenty/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Classic & Vocal House" => 
+		"https://stream.sunshine-live.de/vocalhouse/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Vocal Trance" => 
+		"https://stream.sunshine-live.de/vocaltrance/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Peaceful Beats" => 
+		"https://stream.sunshine-live.de/winterchill/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Workout" => 
+		"https://stream.sunshine-live.de/workout/mp3-192/stream.sunshine-live.de/play.m3u",
+
+		"sunshine live - Psytrance" => 
+		"https://stream.sunshine-live.de/xmas/mp3-192/stream.sunshine-live.de/play.m3u",
+));
+
 function station_curl($node_in,$station){
 $output[] = "chat.".$node_in." = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',";
@@ -473,9 +664,6 @@ $output[]="	options: [";
 
 foreach($station as $name => $url)
 {
-	
-	
-	
 	
 	$playlist_endungen = array(".m3u", ".pls");
 	$endung = substr($url,strrpos($url,"."));
@@ -528,7 +716,7 @@ $output = implode("\n",$output);
 return($output);
 }
 
-
+/*
 $station = 'station_antenne_niedersachsen';
 $output[] =station_curl($station,constant($station));
 
@@ -562,6 +750,10 @@ $output[] =station_curl($station,constant($station));
 
 
 $station = 'station_bayerischer_Rundfunk';
+$output[] =station_curl($station,constant($station));
+*/
+
+$station = 'station_sunshine_live';
 $output[] =station_curl($station,constant($station));
 
 

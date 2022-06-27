@@ -271,6 +271,11 @@ chat.radio_genre_elektronisch = {
 					text: 'Hirschmilch',
 					next: 'station_hirschmilch'
 					},
+
+					{
+					text: 'sunshine live (alle Kanäle)',
+					next: 'station_sunshine_live'
+					},
 				]
 }
 
@@ -345,5 +350,7 @@ https://www.ffh.de/musik/webradio/stream-adressen.html
 https://www.ffn.de/musik/streams/
 https://www.ndr.de/service/Die-Radio-Livestream-Links,livestreams101.html
 https://www.radiomk.de/der-sender-ueber-uns/frequenzen-empfang.html
+https://www.br.de/unternehmen/inhalt/technik/hilfe-livestreams-br100.html
+https://stream.sunshine-live.de/
 
 */
