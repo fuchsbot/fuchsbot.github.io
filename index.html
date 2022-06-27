@@ -22,6 +22,16 @@
             --peekobot-height: 80vh;
             --peekobot-avatar: url();
         }
+		
+		.playerbutton {height:2em;}
+		
+		.player {}
+		
+		.slider {
+			max-width:50%;
+			 /*transform: rotate(-90deg);*/
+		
+		}
     </style>
     <!-- Peekobot styles -->
 	<script>
@@ -72,9 +82,6 @@ function zufallszahl(){
 var zahl = 0;
 
 
-
-
-
 var datum = new Date()
 var stunde = datum.getHours()
 var begruessung = "Hallo und guten Tag";
@@ -90,10 +97,6 @@ if(stunde>=4 && stunde<=11){verabschiedung = "Hab noch einen guten Start in den 
 if(stunde>=12 && stunde<=14){verabschiedung = "Hab noch einen schönen Mittag 😊";}
 if(stunde>=15 && stunde<=17){verabschiedung = "Hab noch einen schönen Nachmittag 😊";}
 if(stunde>=18 && stunde<=23){verabschiedung = "Hab noch einen schönen Abend 😊";}
-
-
-
-
 
 
 /**
@@ -134,13 +137,7 @@ function require(file, callback) {
   document.documentElement.firstChild.appendChild(script);
 }
 
-/*
-document.getElementById("loadButton").onclick = function () {
-  <script src="remote.js", function () {
-    sayHello("Mohammad");
-  });
-};
-*/
+
 
 
 

@@ -20,6 +20,17 @@
 	The Gaslight Anthem - American Slang
 	Tyler Leads - Call Of The Wild
 	
+	BIRGITTA FUCHS - SWINGING HARP (Komponiert von: Gorter, Gertraud)
+
+	http://stream.antenne.com/
+	https://www.br.de/unternehmen/inhalt/technik/nutzung-mp3-livestreams-100.html
+	https://www.ffh.de/musik/webradio/stream-adressen.html
+	https://www.ffn.de/musik/streams/
+	https://www.ndr.de/service/Die-Radio-Livestream-Links,livestreams101.html
+	https://www.radiomk.de/der-sender-ueber-uns/frequenzen-empfang.html
+	
+	
+	
 */
 
 
@@ -434,6 +445,25 @@ define('station_ffn', array(
 "FFN Peppermint" => "http://stream.ffn.de/peppermintfm/mp3-192/?", //"http://player.ffn.de/peppermintfm.m3u",
 ));
 
+define('station_bayerischer_Rundfunk', array (
+"Bayern 1 Oberbayern" => "https://dispatcher.rndfnk.com/br/br1/obb/mp3/mid", 
+"Bayern 1 Niederbayern / Oberpfalz" => "https://dispatcher.rndfnk.com/br/br1/nbopf/mp3/mid", 
+"Bayern 1 Schwaben" => "https://dispatcher.rndfnk.com/br/br1/schwaben/mp3/mid", 
+"Bayern 1 Franken" => "https://dispatcher.rndfnk.com/br/br1/franken/mp3/mid", 
+"Bayern 1 Mainfranken" => "https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/mid", 
+"Bayern 2 Nord" => "https://dispatcher.rndfnk.com/br/br2/nord/mp3/mid", 
+"Bayern 2 Süd" => "https://dispatcher.rndfnk.com/br/br2/sued/mp3/mid", 
+"Bayern 3" => "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid", 
+"BR-Klassik" => "https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid", 
+"BR Klassik (256 kbit/s)" => "https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high",
+"BR24" => "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid", 
+"BR24live" => "https://dispatcher.rndfnk.com/br/br24live/live/mp3/mid", 
+"BR Schlager" => "https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid", 
+"BR Heimat" => "https://dispatcher.rndfnk.com/br/brheimat/live/mp3/mid", 
+"PULS" => "https://dispatcher.rndfnk.com/br/puls/live/mp3/mid", 			
+
+));
+
 function station_curl($node_in,$station){
 $output[] = "chat.".$node_in." = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',";
@@ -451,11 +481,7 @@ foreach($station as $name => $url)
 	$endung = substr($url,strrpos($url,"."));
 	if(in_array($endung,$playlist_endungen)){
 	
-	var_dump($url);
-	//$inhalt = file($url);
 	
-	
-	/*
 	$inhalt = file($url);
 	//print_r($inhalt);exit;
 	for($a=0;$a<count($inhalt);$a++){
@@ -467,7 +493,7 @@ foreach($station as $name => $url)
 	} 
 
 	}
-	*/
+	
 	
 	}
 	
@@ -481,7 +507,7 @@ foreach($station as $name => $url)
 	//$stations[] = $name."|radiostream_".$base64name;
 
 $output[]="			{
-					text: text_stationclick+'".$url."\');\">".$name."</span>',
+					text: text_stationclick+'".$url."\',\'".$name."\');\">".$name."</span>',
 					next: '".$node_in."_after'
 					},
 					";
@@ -502,34 +528,40 @@ $output = implode("\n",$output);
 return($output);
 }
 
-/*
+
 $station = 'station_antenne_niedersachsen';
 $output[] =station_curl($station,constant($station));
 
 
 $station = 'station_hirschmilch';
 $output[] =station_curl($station,constant($station));
-*/
 
-/*
+
+
 $station = 'station_ndr';
 $output[] =station_curl($station,constant($station));
-*/
 
-/*
+
+
 $station = 'station_radio_mk';
 $output[] =station_curl($station,constant($station));
-*/
 
-/*
+
+
 $station = 'station_wdr';
 $output[] =station_curl($station,constant($station));
-*/
-/*
+
+
 $station = 'station_ffh';
 $output[] =station_curl($station,constant($station));
-*/
+
+
 $station = 'station_ffn';
+$output[] =station_curl($station,constant($station));
+
+
+
+$station = 'station_bayerischer_Rundfunk';
 $output[] =station_curl($station,constant($station));
 
 

@@ -1,123 +1,123 @@
 chat.station_antenne_niedersachsen = {
-	text: 'Okidoki und welchen Kanal möchtest du hören? 🙃',
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds70er-mp3-192-7585114\');">Antenne Niedersachsen</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds70er-mp3-192-7585114\',\'Antenne Niedersachsen\');">Antenne Niedersachsen</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds80erparty-mp3-192-3231516\');">Antenne Niedersachsen 80er Party</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds80erparty-mp3-192-3231516\',\'Antenne Niedersachsen 80er Party\');">Antenne Niedersachsen 80er Party</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndslive-mp3-192-6295410\');">Antenne Niedersachen On Air</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndslive-mp3-192-6295410\',\'Antenne Niedersachen On Air\');">Antenne Niedersachen On Air</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds80er-mp3-192-3144824\');">Antenne Niedersachsen 80er</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds80er-mp3-192-3144824\',\'Antenne Niedersachsen 80er\');">Antenne Niedersachsen 80er</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds90er-mp3-192-4791241\');">Antenne Niedersachsen 90er</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antnds90er-mp3-192-4791241\',\'Antenne Niedersachsen 90er\');">Antenne Niedersachsen 90er</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndscharts-mp3-192-9281473\');">Antenne Niedersachsen Charts</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndscharts-mp3-192-9281473\',\'Antenne Niedersachsen Charts\');">Antenne Niedersachsen Charts</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsdance-mp3-192-3425194\');">Antenne Niedersachsen Dance</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsdance-mp3-192-3425194\',\'Antenne Niedersachsen Dance\');">Antenne Niedersachsen Dance</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsdeutsch-mp3-192-5034876\');">Antenne Niedersachsen Deutsch</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsdeutsch-mp3-192-5034876\',\'Antenne Niedersachsen Deutsch\');">Antenne Niedersachsen Deutsch</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsentspannt-mp3-192-9589219\');">Antenne Niedersachsen Entspannt</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsentspannt-mp3-192-9589219\',\'Antenne Niedersachsen Entspannt\');">Antenne Niedersachsen Entspannt</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndshits-mp3-192-3913512\');">Antenne Niedersachsen Greatest Hits</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndshits-mp3-192-3913512\',\'Antenne Niedersachsen Greatest Hits\');">Antenne Niedersachsen Greatest Hits</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsho-mp3-192-1920645\');">Antenne Niedersachsen HomeOffice</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsho-mp3-192-1920645\',\'Antenne Niedersachsen HomeOffice\');">Antenne Niedersachsen HomeOffice</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndslove-mp3-192-5758353\');">Antenne Niedersachsen Love</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndslove-mp3-192-5758353\',\'Antenne Niedersachsen Love\');">Antenne Niedersachsen Love</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsoldies-mp3-192-4005366\');">Antenne Niedersachsen Oldies</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsoldies-mp3-192-4005366\',\'Antenne Niedersachsen Oldies\');">Antenne Niedersachsen Oldies</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion1-mp3-192-4798802\');">Antenne Niedersachsen Region 1</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion1-mp3-192-4798802\',\'Antenne Niedersachsen Region 1\');">Antenne Niedersachsen Region 1</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion2-mp3-192-9181762\');">Antenne Niedersachsen Region 2</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion2-mp3-192-9181762\',\'Antenne Niedersachsen Region 2\');">Antenne Niedersachsen Region 2</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion3-mp3-192-3635313\');">Antenne Niedersachsen Region 3</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion3-mp3-192-3635313\',\'Antenne Niedersachsen Region 3\');">Antenne Niedersachsen Region 3</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion4-mp3-192-5945441\');">Antenne Niedersachsen Region 4</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion4-mp3-192-5945441\',\'Antenne Niedersachsen Region 4\');">Antenne Niedersachsen Region 4</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion5-mp3-192-8809389\');">Antenne Niedersachsen Region 5</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsregion5-mp3-192-8809389\',\'Antenne Niedersachsen Region 5\');">Antenne Niedersachsen Region 5</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsrelax-mp3-192-6389233\');">Antenne Niedersachsen Relax</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsrelax-mp3-192-6389233\',\'Antenne Niedersachsen Relax\');">Antenne Niedersachsen Relax</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsrock-mp3-192-7828795\');">Antenne Niedersachsen Rock</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsrock-mp3-192-7828795\',\'Antenne Niedersachsen Rock\');">Antenne Niedersachsen Rock</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsschlager-mp3-192-1077974\');">Antenne Niedersachsen Schlager</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsschlager-mp3-192-1077974\',\'Antenne Niedersachsen Schlager\');">Antenne Niedersachsen Schlager</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsschuetzenfest-mp3-192-6805889\');">Antenne Niedersachsen Schützenfest</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsschuetzenfest-mp3-192-6805889\',\'Antenne Niedersachsen Schützenfest\');">Antenne Niedersachsen Schützenfest</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-anivoelligverrueckt-mp3-192-8780320\');">Antenne Niedersachsen Völlig Verrückt</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-anivoelligverrueckt-mp3-192-8780320\',\'Antenne Niedersachsen Völlig Verrückt\');">Antenne Niedersachsen Völlig Verrückt</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
 			{
-					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsxmas-mp3-192-3713335\');">Antenne Niedersachsen X-Mas</span>',
+					text: text_stationclick+'http://antnds.streamabc.net/ands-antndsxmas-mp3-192-3713335\',\'Antenne Niedersachsen X-Mas\');">Antenne Niedersachsen X-Mas</span>',
 					next: 'station_antenne_niedersachsen_after'
 					},
 					
@@ -131,32 +131,31 @@ chat.station_antenne_niedersachsen_after = {
 					next: 'station_antenne_niedersachsen'
 					}]).concat(radio_after)
 }
-
 chat.station_hirschmilch = {
-	text: 'Okidoki und welchen Kanal möchtest du hören? 🙃',
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/chillout.mp3\');">Hirschmilch Chillout</span>',
+					text: text_stationclick+'http://hirschmilch.de:7000/chillout.mp3\',\'Hirschmilch Chillout\');">Hirschmilch Chillout</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/electronic.mp3\');">Hirschmilch Electronic</span>',
+					text: text_stationclick+'http://hirschmilch.de:7000/electronic.mp3\',\'Hirschmilch Electronic\');">Hirschmilch Electronic</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/prog-house.mp3\');">Hirschmilch Prog-House</span>',
+					text: text_stationclick+'http://hirschmilch.de:7000/prog-house.mp3\',\'Hirschmilch Prog-House\');">Hirschmilch Prog-House</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/progressive.mp3\');">Hirschmilch Progressive</span>',
+					text: text_stationclick+'http://hirschmilch.de:7000/progressive.mp3\',\'Hirschmilch Progressive\');">Hirschmilch Progressive</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/psytrance.mp3\');">Hirschmilch Psytrance</span>',
+					text: text_stationclick+'http://hirschmilch.de:7000/psytrance.mp3\',\'Hirschmilch Psytrance\');">Hirschmilch Psytrance</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
@@ -170,262 +169,261 @@ chat.station_hirschmilch_after = {
 					next: 'station_hirschmilch'
 					}]).concat(radio_after)
 }
-
 chat.station_ndr = {
-	text: 'Okidoki und welchen Kanal möchtest du hören? 🙃',
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3\');">NDR 1 Niedersachsen - Region Hannover',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen - Region Hannover\');">NDR 1 Niedersachsen - Region Hannover</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/braunschweig/mp3/128/stream.mp3\');">NDR 1 Niedersachsen - Region Braunschweig',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/braunschweig/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen - Region Braunschweig\');">NDR 1 Niedersachsen - Region Braunschweig</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/lueneburg/mp3/128/stream.mp3\');">NDR 1 Niedersachsen - Region Lüneburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/lueneburg/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen - Region Lüneburg\');">NDR 1 Niedersachsen - Region Lüneburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3\');">NDR 1 Niedersachsen - Region Oldenburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen - Region Oldenburg\');">NDR 1 Niedersachsen - Region Oldenburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3\');">NDR 1 Niedersachsen - Region Osnabrück',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen - Region Osnabrück\');">NDR 1 Niedersachsen - Region Osnabrück</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3\');">NDR 1 Radio MV - Region Schwerin',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3\',\'NDR 1 Radio MV - Region Schwerin\');">NDR 1 Radio MV - Region Schwerin</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3\');">NDR 1 Radio MV - Region Greifswald',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3\',\'NDR 1 Radio MV - Region Greifswald\');">NDR 1 Radio MV - Region Greifswald</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3\');">NDR 1 Radio MV - Region Rostock',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3\',\'NDR 1 Radio MV - Region Rostock\');">NDR 1 Radio MV - Region Rostock</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/neubrandenburg/mp3/128/stream.mp3\');">NDR 1 Radio MV - Region Neubrandenburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1radiomv/neubrandenburg/mp3/128/stream.mp3\',\'NDR 1 Radio MV - Region Neubrandenburg\');">NDR 1 Radio MV - Region Neubrandenburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3\');">NDR 90,3',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3\',\'NDR 90,3\');">NDR 90,3</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3\');">NDR 1 Welle Nord - Region Kiel',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3\',\'NDR 1 Welle Nord - Region Kiel\');">NDR 1 Welle Nord - Region Kiel</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/flensburg/mp3/128/stream.mp3\');">NDR 1 Welle Nord - Region Flensburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/flensburg/mp3/128/stream.mp3\',\'NDR 1 Welle Nord - Region Flensburg\');">NDR 1 Welle Nord - Region Flensburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/heide/mp3/128/stream.mp3\');">NDR 1 Welle Nord - Region Heide',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/heide/mp3/128/stream.mp3\',\'NDR 1 Welle Nord - Region Heide\');">NDR 1 Welle Nord - Region Heide</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3\');">NDR 1 Welle Nord - Region Lübeck',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3\',\'NDR 1 Welle Nord - Region Lübeck\');">NDR 1 Welle Nord - Region Lübeck</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/norderstedt/mp3/128/stream.mp3\');">NDR 1 Welle Nord - Region Norderstedt',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr1wellenord/norderstedt/mp3/128/stream.mp3\',\'NDR 1 Welle Nord - Region Norderstedt\');">NDR 1 Welle Nord - Region Norderstedt</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3\');">NDR 2 - Niedersachsen',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3\',\'NDR 2 - Niedersachsen\');">NDR 2 - Niedersachsen</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3\');">NDR 2 - Hamburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3\',\'NDR 2 - Hamburg\');">NDR 2 - Hamburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/mecklenburgvorpommern/mp3/128/stream.mp3\');">NDR 2 - Mecklenburg-Vorpommern',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/mecklenburgvorpommern/mp3/128/stream.mp3\',\'NDR 2 - Mecklenburg-Vorpommern\');">NDR 2 - Mecklenburg-Vorpommern</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/schleswigholstein/mp3/128/stream.mp3\');">NDR 2 - Schleswig-Holstein',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndr2/schleswigholstein/mp3/128/stream.mp3\',\'NDR 2 - Schleswig-Holstein\');">NDR 2 - Schleswig-Holstein</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3\');">NDR Kultur',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3\',\'NDR Kultur\');">NDR Kultur</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3\');">NDR Info - Niedersachsen',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3\',\'NDR Info - Niedersachsen\');">NDR Info - Niedersachsen</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3\');">NDR Info - Hamburg',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3\',\'NDR Info - Hamburg\');">NDR Info - Hamburg</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3\');">NDR Info - Mecklenburg-Vorpommern',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3\',\'NDR Info - Mecklenburg-Vorpommern\');">NDR Info - Mecklenburg-Vorpommern</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3\');">NDR Info - Schleswig-Holstein',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3\',\'NDR Info - Schleswig-Holstein\');">NDR Info - Schleswig-Holstein</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3\');">NDR Info Spezial',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3\',\'NDR Info Spezial\');">NDR Info Spezial</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3\');">N-JOY',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3\',\'N-JOY\');">N-JOY</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3\');">NDR Blue',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3\',\'NDR Blue\');">NDR Blue</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3\');">NDR Schlager',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3\',\'NDR Schlager\');">NDR Schlager</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/15/mp3/128/stream.mp3\');">NDR 2 Soundcheck Neue Musik (montags) 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/15/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Neue Musik (montags) 🔁\');">NDR 2 Soundcheck Neue Musik (montags) 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/16/mp3/128/stream.mp3\');">NDR 2 Soundcheck Neue Musik (dienstags) 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/16/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Neue Musik (dienstags) 🔁\');">NDR 2 Soundcheck Neue Musik (dienstags) 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/17/mp3/128/stream.mp3\');">NDR 2 Soundcheck Neue Musik (mittwochs) 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/17/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Neue Musik (mittwochs) 🔁\');">NDR 2 Soundcheck Neue Musik (mittwochs) 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/11/mp3/128/stream.mp3\');">Das NDR 2 Radiokonzert 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/11/mp3/128/stream.mp3\',\'Das NDR 2 Radiokonzert 🔁\');">Das NDR 2 Radiokonzert 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/18/mp3/128/stream.mp3\');">NDR 2 Peter Urban Show 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/18/mp3/128/stream.mp3\',\'NDR 2 Peter Urban Show 🔁\');">NDR 2 Peter Urban Show 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/21/mp3/128/stream.mp3\');">NDR 2 Soundcheck Neue Musik (freitags) 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/21/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Neue Musik (freitags) 🔁\');">NDR 2 Soundcheck Neue Musik (freitags) 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/22/mp3/128/stream.mp3\');">NDR 2 Soundcheck Party 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/22/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Party 🔁\');">NDR 2 Soundcheck Party 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/23/mp3/128/stream.mp3\');">NDR 2 Soundcheck Easy Sounds 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/23/mp3/128/stream.mp3\',\'NDR 2 Soundcheck Easy Sounds 🔁\');">NDR 2 Soundcheck Easy Sounds 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/25/mp3/128/stream.mp3\');">N-JOY Abstrait 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/25/mp3/128/stream.mp3\',\'N-JOY Abstrait 🔁\');">N-JOY Abstrait 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/6/mp3/128/stream.mp3\');">N-JOY Soundfiles Hip-Hop 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/6/mp3/128/stream.mp3\',\'N-JOY Soundfiles Hip-Hop 🔁\');">N-JOY Soundfiles Hip-Hop 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/5/mp3/128/stream.mp3\');">N-JOY Soundfiles Alternative 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/5/mp3/128/stream.mp3\',\'N-JOY Soundfiles Alternative 🔁\');">N-JOY Soundfiles Alternative 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/8/mp3/128/stream.mp3\');">N-JOY TOP 30 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/8/mp3/128/stream.mp3\',\'N-JOY TOP 30 🔁\');">N-JOY TOP 30 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/28/mp3/128/stream.mp3\');">N-JOY In The Mix 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/28/mp3/128/stream.mp3\',\'N-JOY In The Mix 🔁\');">N-JOY In The Mix 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/29/mp3/128/stream.mp3\');">N-JOY Pop 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/29/mp3/128/stream.mp3\',\'N-JOY Pop 🔁\');">N-JOY Pop 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/27/mp3/128/stream.mp3\');">N-JOY Morningshow 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/27/mp3/128/stream.mp3\',\'N-JOY Morningshow 🔁\');">N-JOY Morningshow 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/19/mp3/128/stream.mp3\');">NDR Blue Jazz Nacht 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/19/mp3/128/stream.mp3\',\'NDR Blue Jazz Nacht 🔁\');">NDR Blue Jazz Nacht 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/20/mp3/128/stream.mp3\');">NDR Blue Nachtclub 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/20/mp3/128/stream.mp3\',\'NDR Blue Nachtclub 🔁\');">NDR Blue Nachtclub 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/2/mp3/128/stream.mp3\');">NDR Kultur Belcanto 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/2/mp3/128/stream.mp3\',\'NDR Kultur Belcanto 🔁\');">NDR Kultur Belcanto 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/4/mp3/128/stream.mp3\');">Philipps Playlist - Musikalische Gedankenreisen 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/4/mp3/128/stream.mp3\',\'Philipps Playlist - Musikalische Gedankenreisen 🔁\');">Philipps Playlist - Musikalische Gedankenreisen 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/24/mp3/128/stream.mp3\');">NDR Kultur Neo 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/24/mp3/128/stream.mp3\',\'NDR Kultur Neo 🔁\');">NDR Kultur Neo 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/31/mp3/128/stream.mp3\');">NDR Kultur Play Jazz 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/31/mp3/128/stream.mp3\',\'NDR Kultur Play Jazz 🔁\');">NDR Kultur Play Jazz 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/3/mp3/128/stream.mp3\');">NDR 1 Radio MV Kulthitshow 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/3/mp3/128/stream.mp3\',\'NDR 1 Radio MV Kulthitshow 🔁\');">NDR 1 Radio MV Kulthitshow 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/1/mp3/128/stream.mp3\');">NDR 1 Niedersachsen TOP 15 Hitparade 🔁',
+					text: text_stationclick+'http://icecast.ndr.de/ndr/loop/1/mp3/128/stream.mp3\',\'NDR 1 Niedersachsen TOP 15 Hitparade 🔁\');">NDR 1 Niedersachsen TOP 15 Hitparade 🔁</span>',
 					next: 'station_ndr_after'
 					},
 					
@@ -439,77 +437,76 @@ chat.station_ndr_after = {
 					next: 'station_ndr'
 					}]).concat(radio_after)
 }
-
 chat.station_radio_mk = {
-	text: 'Okidoki und welchen Kanal möchtest du hören? 🙃',
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/445429s\');">Radio MK - Region Nord (Altena, Balve, Hemer, Iserlohn, Menden, Nachrodt-Wiblingwerde)',
+					text: text_stationclick+'http://stream.lokalradio.nrw/445429s\',\'Radio MK - Region Nord (Altena, Balve, Hemer, Iserlohn, Menden, Nachrodt-Wiblingwerde)\');">Radio MK - Region Nord (Altena, Balve, Hemer, Iserlohn, Menden, Nachrodt-Wiblingwerde)</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/44542h2\');">Radio MK - Region Süd (Halver, Herscheid, Kierspe, Lüdenscheid, Meinerzhagen, Neuenrade, Plettenberg, Schalksmühle, Werdohl)',
+					text: text_stationclick+'http://stream.lokalradio.nrw/44542h2\',\'Radio MK - Region Süd (Halver, Herscheid, Kierspe, Lüdenscheid, Meinerzhagen, Neuenrade, Plettenberg, Schalksmühle, Werdohl)\');">Radio MK - Region Süd (Halver, Herscheid, Kierspe, Lüdenscheid, Meinerzhagen, Neuenrade, Plettenberg, Schalksmühle, Werdohl)</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444zh4j\');">Radio MK - Dein 80er Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444zh4j\',\'Radio MK - Dein 80er Radio\');">Radio MK - Dein 80er Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444zkh2\');">Radio MK - Dein 90er Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444zkh2\',\'Radio MK - Dein 90er Radio\');">Radio MK - Dein 90er Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444znvj\');">Radio MK - Dein DeutschPop Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444znvj\',\'Radio MK - Dein DeutschPop Radio\');">Radio MK - Dein DeutschPop Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444zr82\');">Radio MK - Dein Weihnachts Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444zr82\',\'Radio MK - Dein Weihnachts Radio\');">Radio MK - Dein Weihnachts Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444ztmj\');">Radio MK - Dein Lounge Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444ztmj\',\'Radio MK - Dein Lounge Radio\');">Radio MK - Dein Lounge Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444zwz2\');">Radio MK - Dein Love Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444zwz2\',\'Radio MK - Dein Love Radio\');">Radio MK - Dein Love Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/444zzcj\');">Radio MK - Dein Rock Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/444zzcj\',\'Radio MK - Dein Rock Radio\');">Radio MK - Dein Rock Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/44523r2\');">Radio MK - Dein Schlager Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/44523r2\',\'Radio MK - Dein Schlager Radio\');">Radio MK - Dein Schlager Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/445264j\');">Radio MK - Dein Top40 Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/445264j\',\'Radio MK - Dein Top40 Radio\');">Radio MK - Dein Top40 Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/44528h2\');">Radio MK - Dein Urban Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/44528h2\',\'Radio MK - Dein Urban Radio\');">Radio MK - Dein Urban Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/44548ss\');">Radio MK - Dein Oldie Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/44548ss\',\'Radio MK - Dein Oldie Radio\');">Radio MK - Dein Oldie Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.lokalradio.nrw/4454c69\');">Radio MK - Dein Karnevals-Radio',
+					text: text_stationclick+'http://stream.lokalradio.nrw/4454c69\',\'Radio MK - Dein Karnevals-Radio\');">Radio MK - Dein Karnevals-Radio</span>',
 					next: 'station_radio_mk_after'
 					},
 					
@@ -523,187 +520,186 @@ chat.station_radio_mk_after = {
 					next: 'station_radio_mk'
 					}]).concat(radio_after)
 }
-
 chat.station_wdr = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3\');">1LIVE',
+					text: text_stationclick+'http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3\',\'1LIVE\');">1LIVE</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3\');">1LIVE DIGGI',
+					text: text_stationclick+'http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3\',\'1LIVE DIGGI\');">1LIVE DIGGI</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-planb.icecast.wdr.de/wdr/1live/planb/mp3/128/stream.mp3\');">1LIVE PLAN B 🔁',
+					text: text_stationclick+'http://wdr-1live-planb.icecast.wdr.de/wdr/1live/planb/mp3/128/stream.mp3\',\'1LIVE PLAN B 🔁\');">1LIVE PLAN B 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3\');">1LIVE DJ SESSION 🔁',
+					text: text_stationclick+'http://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3\',\'1LIVE DJ SESSION 🔁\');">1LIVE DJ SESSION 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-neufuerdensektor.icecast.wdr.de/wdr/1live/neufuerdensektor/mp3/128/stream.mp3\');">1LIVE NEU FÜR DEN SEKTOR 🔁',
+					text: text_stationclick+'http://wdr-1live-neufuerdensektor.icecast.wdr.de/wdr/1live/neufuerdensektor/mp3/128/stream.mp3\',\'1LIVE NEU FÜR DEN SEKTOR 🔁\');">1LIVE NEU FÜR DEN SEKTOR 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-hiphop.icecast.wdr.de/wdr/1live/hiphop/mp3/128/stream.mp3\');">1LIVE HIPHOP 🔁',
+					text: text_stationclick+'http://wdr-1live-hiphop.icecast.wdr.de/wdr/1live/hiphop/mp3/128/stream.mp3\',\'1LIVE HIPHOP 🔁\');">1LIVE HIPHOP 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-specials.icecast.wdr.de/wdr/1live/specials/mp3/128/stream.mp3\');">1LIVE SPECIAL 🔁',
+					text: text_stationclick+'http://wdr-1live-specials.icecast.wdr.de/wdr/1live/specials/mp3/128/stream.mp3\',\'1LIVE SPECIAL 🔁\');">1LIVE SPECIAL 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3\');">1LIVE FIEHE 🔁',
+					text: text_stationclick+'http://wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3\',\'1LIVE FIEHE 🔁\');">1LIVE FIEHE 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3\');">WDR 2 (Rheinland) ',
+					text: text_stationclick+'http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3\',\'WDR 2 (Rheinland) \');">WDR 2 (Rheinland) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3\');">WDR 2 (Ostwestfalen-Lippe) ',
+					text: text_stationclick+'http://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3\',\'WDR 2 (Ostwestfalen-Lippe) \');">WDR 2 (Ostwestfalen-Lippe) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3\');">WDR 2 (Münsterland) ',
+					text: text_stationclick+'http://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3\',\'WDR 2 (Münsterland) \');">WDR 2 (Münsterland) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3\');">WDR 2 (Ruhrgebiet) ',
+					text: text_stationclick+'http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3\',\'WDR 2 (Ruhrgebiet) \');">WDR 2 (Ruhrgebiet) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3\');">WDR 2 (Rhein und Ruhr) ',
+					text: text_stationclick+'http://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3\',\'WDR 2 (Rhein und Ruhr) \');">WDR 2 (Rhein und Ruhr) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-bergischesland.icecast.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3\');">WDR 2 (Bergisches Land) ',
+					text: text_stationclick+'http://wdr-wdr2-bergischesland.icecast.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3\',\'WDR 2 (Bergisches Land) \');">WDR 2 (Bergisches Land) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-suedwestfalen.icecast.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3\');">WDR 2 (Südwestfalen) ',
+					text: text_stationclick+'http://wdr-wdr2-suedwestfalen.icecast.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3\',\'WDR 2 (Südwestfalen) \');">WDR 2 (Südwestfalen) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr2-aachenundregion.icecast.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3\');">WDR 2 (Aachen und Region) ',
+					text: text_stationclick+'http://wdr-wdr2-aachenundregion.icecast.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3\',\'WDR 2 (Aachen und Region) \');">WDR 2 (Aachen und Region) </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3\');">WDR 3 ',
+					text: text_stationclick+'http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3\',\'WDR 3 \');">WDR 3 </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3\');">WDR 3 (mp3, 256 kBit/s)',
+					text: text_stationclick+'http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3\',\'WDR 3 (mp3, 256 kBit/s)\');">WDR 3 (mp3, 256 kBit/s)</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3\');">WDR 4 ',
+					text: text_stationclick+'http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3\',\'WDR 4 \');">WDR 4 </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3\');">WDR 5 ',
+					text: text_stationclick+'http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3\',\'WDR 5 \');">WDR 5 </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3\');">WDR COSMO ',
+					text: text_stationclick+'http://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3\',\'WDR COSMO \');">WDR COSMO </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-alsautalarabi.icecast.wdr.de/wdr/cosmo/alsautalarabi/mp3/128/stream.mp3\');">WDR COSMO Al-Saut Al-Arabi [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-alsautalarabi.icecast.wdr.de/wdr/cosmo/alsautalarabi/mp3/128/stream.mp3\',\'WDR COSMO Al-Saut Al-Arabi [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Al-Saut Al-Arabi [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-bernamakurdikoelnradyosu.icecast.wdr.de/wdr/cosmo/bernamakurdikoelnradyosu/mp3/128/stream.mp3\');">WDR COSMO Bernama Kurdi [So 18-19 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-bernamakurdikoelnradyosu.icecast.wdr.de/wdr/cosmo/bernamakurdikoelnradyosu/mp3/128/stream.mp3\',\'WDR COSMO Bernama Kurdi [So 18-19 Uhr] \');">WDR COSMO Bernama Kurdi [So 18-19 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-ellinikorandevouradioforum.icecast.wdr.de/wdr/cosmo/ellinikorandevouradioforum/mp3/128/stream.mp3\');">WDR COSMO Elliniko Randevou [So 18-19 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-ellinikorandevouradioforum.icecast.wdr.de/wdr/cosmo/ellinikorandevouradioforum/mp3/128/stream.mp3\',\'WDR COSMO Elliniko Randevou [So 18-19 Uhr] \');">WDR COSMO Elliniko Randevou [So 18-19 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-estacionsurradiocolonia.icecast.wdr.de/wdr/cosmo/estacionsurradiocolonia/mp3/128/stream.mp3\');">WDR COSMO Estación Sur [So 18-19 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-estacionsurradiocolonia.icecast.wdr.de/wdr/cosmo/estacionsurradiocolonia/mp3/128/stream.mp3\',\'WDR COSMO Estación Sur [So 18-19 Uhr] \');">WDR COSMO Estación Sur [So 18-19 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-bernamakurdikoelnradyosu.icecast.wdr.de/wdr/cosmo/bernamakurdikoelnradyosu/mp3/128/stream.mp3\');">WDR COSMO Köln Radyosu [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-bernamakurdikoelnradyosu.icecast.wdr.de/wdr/cosmo/bernamakurdikoelnradyosu/mp3/128/stream.mp3\',\'WDR COSMO Köln Radyosu [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Köln Radyosu [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-coslive.icecast.wdr.de/wdr/cosmo/coslive/mp3/128/stream.mp3\');">WDR COSMO Live 🔁',
+					text: text_stationclick+'http://wdr-cosmo-coslive.icecast.wdr.de/wdr/cosmo/coslive/mp3/128/stream.mp3\',\'WDR COSMO Live 🔁\');">WDR COSMO Live 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-porusskievent.icecast.wdr.de/wdr/cosmo/porusskievent/mp3/128/stream.mp3\');">WDR COSMO Radio po-russki [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-porusskievent.icecast.wdr.de/wdr/cosmo/porusskievent/mp3/128/stream.mp3\',\'WDR COSMO Radio po-russki [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Radio po-russki [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-popolskuevent.icecast.wdr.de/wdr/cosmo/popolskuevent/mp3/128/stream.mp3\');">WDR COSMO Radio po polsku [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-popolskuevent.icecast.wdr.de/wdr/cosmo/popolskuevent/mp3/128/stream.mp3\',\'WDR COSMO Radio po polsku [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Radio po polsku [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-ellinikorandevouradioforum.icecast.wdr.de/wdr/cosmo/ellinikorandevouradioforum/mp3/128/stream.mp3\');">WDR COSMO Radio Forum [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-ellinikorandevouradioforum.icecast.wdr.de/wdr/cosmo/ellinikorandevouradioforum/mp3/128/stream.mp3\',\'WDR COSMO Radio Forum [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Radio Forum [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-estacionsurradiocolonia.icecast.wdr.de/wdr/cosmo/estacionsurradiocolonia/mp3/128/stream.mp3\');">WDR COSMO Radio Colonia [Mo-Fr 18-18.30 Uhr] ',
+					text: text_stationclick+'http://wdr-cosmo-estacionsurradiocolonia.icecast.wdr.de/wdr/cosmo/estacionsurradiocolonia/mp3/128/stream.mp3\',\'WDR COSMO Radio Colonia [Mo-Fr 18-18.30 Uhr] \');">WDR COSMO Radio Colonia [Mo-Fr 18-18.30 Uhr] </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-cosmo-selektor.icecast.wdr.de/wdr/cosmo/selektor/mp3/128/stream.mp3\');">Selektor 🔁',
+					text: text_stationclick+'http://wdr-cosmo-selektor.icecast.wdr.de/wdr/cosmo/selektor/mp3/128/stream.mp3\',\'Selektor 🔁\');">Selektor 🔁</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3\');">Die Maus ',
+					text: text_stationclick+'https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3\',\'Die Maus \');">Die Maus </span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/56/stream.mp3\');">Die Maus (mp3, 56 kBit/s)',
+					text: text_stationclick+'https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/56/stream.mp3\',\'Die Maus (mp3, 56 kBit/s)\');">Die Maus (mp3, 56 kBit/s)</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3\');">WDR Event',
+					text: text_stationclick+'http://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3\',\'WDR Event\');">WDR Event</span>',
 					next: 'station_wdr_after'
 					},
 					
 			{
-					text: text_stationclick+'http://wdr-vera-live.icecast.wdr.de/wdr/vera/live/mp3/128/stream.mp3\');">WDR VERA',
+					text: text_stationclick+'http://wdr-vera-live.icecast.wdr.de/wdr/vera/live/mp3/128/stream.mp3\',\'WDR VERA\');">WDR VERA</span>',
 					next: 'station_wdr_after'
 					},
 					
@@ -717,133 +713,131 @@ chat.station_wdr_after = {
 					next: 'station_wdr'
 					}]).concat(radio_after)
 }
-
-
 chat.station_ffh = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://mp3.ffh.de/radioffh/hqlivestream.mp3\');">HIT RADIO FFH',
+					text: text_stationclick+'http://mp3.ffh.de/radioffh/hqlivestream.mp3\',\'HIT RADIO FFH\');">HIT RADIO FFH</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hq80er.mp3\');">FFH+ 80ER',
+					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hq80er.mp3\',\'FFH+ 80ER\');">FFH+ 80ER</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hq90er.mp3\');">FFH+ 90ER',
+					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hq90er.mp3\',\'FFH+ 90ER\');">FFH+ 90ER</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqcharts.mp3\');">FFH+ CHARTS',
+					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqcharts.mp3\',\'FFH+ CHARTS\');">FFH+ CHARTS</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqrock.mp3\');">FFH+ ROCK',
+					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqrock.mp3\',\'FFH+ ROCK\');">FFH+ ROCK</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqxmas.mp3\');">FFH+ WEIHNACHTEN',
+					text: text_stationclick+'http://mp3.ffh.de/ffhplus/hqxmas.mp3\',\'FFH+ WEIHNACHTEN\');">FFH+ WEIHNACHTEN</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqseasons.mp3\');">FFH HAPPY HITS',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqseasons.mp3\',\'FFH HAPPY HITS\');">FFH HAPPY HITS</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqvoting.mp3\');">FFH LEIDER GEIL',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqvoting.mp3\',\'FFH LEIDER GEIL\');">FFH LEIDER GEIL</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqtop40.mp3\');">FFH TOP 40',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqtop40.mp3\',\'FFH TOP 40\');">FFH TOP 40</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqparty.mp3\');">FFH PARTY',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqparty.mp3\',\'FFH PARTY\');">FFH PARTY</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq80er.mp3\');">FFH DIE 80ER',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq80er.mp3\',\'FFH DIE 80ER\');">FFH DIE 80ER</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq90er.mp3\');">FFH JUST 90S',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq90er.mp3\',\'FFH JUST 90S\');">FFH JUST 90S</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq2000er.mp3\');">FFH DIE 2000ER',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq2000er.mp3\',\'FFH DIE 2000ER\');">FFH DIE 2000ER</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq2010er.mp3\');">FFH DIE 2010ER',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hq2010er.mp3\',\'FFH DIE 2010ER\');">FFH DIE 2010ER</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqeurodance.mp3\');">FFH EURODANCE',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqeurodance.mp3\',\'FFH EURODANCE\');">FFH EURODANCE</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqrock.mp3\');">FFH ROCK',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqrock.mp3\',\'FFH ROCK\');">FFH ROCK</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqsummerfeeling.mp3\');">FFH SUMMER FEELING',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqsummerfeeling.mp3\',\'FFH SUMMER FEELING\');">FFH SUMMER FEELING</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqworkout.mp3\');">FFH WORKOUT',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqworkout.mp3\',\'FFH WORKOUT\');">FFH WORKOUT</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqschlager.mp3\');">FFH SCHLAGERKULT',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqschlager.mp3\',\'FFH SCHLAGERKULT\');">FFH SCHLAGERKULT</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqdeutsch.mp3\');">FFH DEUTSCH PUR',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqdeutsch.mp3\',\'FFH DEUTSCH PUR\');">FFH DEUTSCH PUR</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqbrandneu.mp3\');">FFH BRANDNEU',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqbrandneu.mp3\',\'FFH BRANDNEU\');">FFH BRANDNEU</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqlounge.mp3\');">FFH LOUNGE',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqlounge.mp3\',\'FFH LOUNGE\');">FFH LOUNGE</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqacoustichits.mp3\');">FFH ACOUSTIC HITS',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqacoustichits.mp3\',\'FFH ACOUSTIC HITS\');">FFH ACOUSTIC HITS</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqsoundtrack.mp3\');">FFH SOUNDTRACK',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqsoundtrack.mp3\',\'FFH SOUNDTRACK\');">FFH SOUNDTRACK</span>',
 					next: 'station_ffh_after'
 					},
 					
 			{
-					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqxmas.mp3\');">FFH WEIHNACHTSRADIO',
+					text: text_stationclick+'http://mp3.ffh.de/ffhchannels/hqxmas.mp3\',\'FFH WEIHNACHTSRADIO\');">FFH WEIHNACHTSRADIO</span>',
 					next: 'station_ffh_after'
 					},
 					
@@ -857,57 +851,56 @@ chat.station_ffh_after = {
 					next: 'station_ffh'
 					}]).concat(radio_after)
 }
-
 chat.station_ffn = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://stream.ffn.de/ffn/mp3-192/\');">FFN Radio',
+					text: text_stationclick+'http://stream.ffn.de/ffn/mp3-192/\',\'FFN Radio\');">FFN Radio</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'https://ffn-de-hz-fal-stream09-cluster01.radiohost.de/ffn-hits_mp3-192\');">FFN Hits',
+					text: text_stationclick+'https://ffn-de-hz-fal-stream09-cluster01.radiohost.de/ffn-hits_mp3-192\',\'FFN Hits\');">FFN Hits</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'https://ffn-stream26.radiohost.de/ffn-rockt_mp3-192\');">FFN Rockt',
+					text: text_stationclick+'https://ffn-stream26.radiohost.de/ffn-rockt_mp3-192\',\'FFN Rockt\');">FFN Rockt</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'https://ffn-stream22.radiohost.de/ffn-gold_mp3-192\');">FFN Gold',
+					text: text_stationclick+'https://ffn-stream22.radiohost.de/ffn-gold_mp3-192\',\'FFN Gold\');">FFN Gold</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'https://ffn-stream27.radiohost.de/ffn-80er_mp3-192\');">FFN 80er',
+					text: text_stationclick+'https://ffn-stream27.radiohost.de/ffn-80er_mp3-192\',\'FFN 80er\');">FFN 80er</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.ffn.de/neunziger/mp3-192/\');">FFN 90er',
+					text: text_stationclick+'http://stream.ffn.de/neunziger/mp3-192/\',\'FFN 90er\');">FFN 90er</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.ffn.de/ffn-comedy/mp3-192/\');">FFN Comedy',
+					text: text_stationclick+'http://stream.ffn.de/ffn-comedy/mp3-192/\',\'FFN Comedy\');">FFN Comedy</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.ffn.de/tannenbaum/mp3-192/\');">FFN Tannenbaum',
+					text: text_stationclick+'http://stream.ffn.de/tannenbaum/mp3-192/\',\'FFN Tannenbaum\');">FFN Tannenbaum</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.ffn.de/radiobollerwagen/mp3-192/\');">FFN Radio Bollerwagen',
+					text: text_stationclick+'http://stream.ffn.de/radiobollerwagen/mp3-192/\',\'FFN Radio Bollerwagen\');">FFN Radio Bollerwagen</span>',
 					next: 'station_ffn_after'
 					},
 					
 			{
-					text: text_stationclick+'http://stream.ffn.de/peppermintfm/mp3-192/\');">FFN Peppermint',
+					text: text_stationclick+'http://stream.ffn.de/peppermintfm/mp3-192/\',\'FFN Peppermint\');">FFN Peppermint</span>',
 					next: 'station_ffn_after'
 					},
 					
@@ -919,5 +912,93 @@ chat.station_ffn_after = {
 	options: 	([{
 					text: anderen_kanal_auswaehlen,
 					next: 'station_ffn'
+					}]).concat(radio_after)
+}
+chat.station_bayerischer_Rundfunk = {
+	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
+	options: [
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br1/obb/mp3/mid\',\'Bayern 1 Oberbayern\');">Bayern 1 Oberbayern</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br1/nbopf/mp3/mid\',\'Bayern 1 Niederbayern / Oberpfalz\');">Bayern 1 Niederbayern / Oberpfalz</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br1/schwaben/mp3/mid\',\'Bayern 1 Schwaben\');">Bayern 1 Schwaben</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br1/franken/mp3/mid\',\'Bayern 1 Franken\');">Bayern 1 Franken</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/mid\',\'Bayern 1 Mainfranken\');">Bayern 1 Mainfranken</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br2/nord/mp3/mid\',\'Bayern 2 Nord\');">Bayern 2 Nord</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br2/sued/mp3/mid\',\'Bayern 2 Süd\');">Bayern 2 Süd</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br3/live/mp3/mid\',\'Bayern 3\');">Bayern 3</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid\',\'BR-Klassik\');">BR-Klassik</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high\',\'BR Klassik (256 kbit/s)\');">BR Klassik (256 kbit/s)</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br24/live/mp3/mid\',\'BR24\');">BR24</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/br24live/live/mp3/mid\',\'BR24live\');">BR24live</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid\',\'BR Schlager\');">BR Schlager</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/brheimat/live/mp3/mid\',\'BR Heimat\');">BR Heimat</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			{
+					text: text_stationclick+'https://dispatcher.rndfnk.com/br/puls/live/mp3/mid\',\'PULS\');">PULS</span>',
+					next: 'station_bayerischer_Rundfunk_after'
+					},
+					
+			]
+}
+
+chat.station_bayerischer_Rundfunk_after = {
+	text: text_playpausebutton,
+	options: 	([{
+					text: anderen_kanal_auswaehlen,
+					next: 'station_bayerischer_Rundfunk'
 					}]).concat(radio_after)
 }
