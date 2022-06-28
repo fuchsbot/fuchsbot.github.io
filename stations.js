@@ -135,27 +135,27 @@ chat.station_hirschmilch = {
 	text: 'Okidoki und welchen Kanal möchtest du? 🙃',
 	options: [
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/chillout.mp3\',\'Hirschmilch Chillout\');">Hirschmilch Chillout</span>',
+					text: text_stationclick+'https://hirschmilch.de:7001/chillout.mp3\',\'Hirschmilch Chillout\');">Hirschmilch Chillout</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/electronic.mp3\',\'Hirschmilch Electronic\');">Hirschmilch Electronic</span>',
+					text: text_stationclick+'https://hirschmilch.de:7001/electronic.mp3\',\'Hirschmilch Electronic\');">Hirschmilch Electronic</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/prog-house.mp3\',\'Hirschmilch Prog-House\');">Hirschmilch Prog-House</span>',
+					text: text_stationclick+'https://hirschmilch.de:7001/prog-house.mp3\',\'Hirschmilch Prog-House\');">Hirschmilch Prog-House</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/progressive.mp3\',\'Hirschmilch Progressive\');">Hirschmilch Progressive</span>',
+					text: text_stationclick+'https://hirschmilch.de:7001/progressive.mp3\',\'Hirschmilch Progressive\');">Hirschmilch Progressive</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
 			{
-					text: text_stationclick+'http://hirschmilch.de:7000/psytrance.mp3\',\'Hirschmilch Psytrance\');">Hirschmilch Psytrance</span>',
+					text: text_stationclick+'https://hirschmilch.de:7001/psytrance.mp3\',\'Hirschmilch Psytrance\');">Hirschmilch Psytrance</span>',
 					next: 'station_hirschmilch_after'
 					},
 					
