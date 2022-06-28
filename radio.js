@@ -1,9 +1,49 @@
+	function roundToTwo(num) {
+    return +(Math.round(num + "e+2")  + "e-2");
+}
+
+	var fadeout_counter = 100;
+	function radio_fadeout() {
+	
+	--fadeout_counter;
+	vol = fadeout_counter/100
+	 if (vol <= 0.1) {
+        fadeout_counter = 0;
+		sound.stop();
+		//clearInterval(fadeoutTimer);
+		
+        //min++;
+	 }
+	 console.log(vol);
+	 sound.volume(vol);
+	 /*
+        if (min >= 60) {
+            min = 0;
+			min_pre ="0";
+            hrs++;
+        }
+		*/
+	//if(fadeout_counter>60){}
+	
+	
+	
+  
+}
+
+        
+
 
 function station(station,name)
 {
 	
 	if(typeof  radioTimer !== 'undefined'){	
 	clearInterval(radioTimer)
+
+	}
+
+	if(typeof fadeoutTimer !== 'undefined'){	
+	//clearInterval(fadeoutTimer)
+	fadeout_counter = 0;
 
 	}
 	
@@ -49,11 +89,20 @@ function playit_pre(station,name)
 
 	if(typeof  radioTimer !== 'undefined'){	
 	clearInterval(radioTimer)
+
+
+	
 	var c = 0;
 	var sec = 0;
 	var min = 0;
 	var hrs = 0;
 	}
+	
+		if(typeof  fadeoutTimer !== 'undefined'){	
+	//clearInterval(fadeoutTimer)
+	 fadeout_counter = 0;
+	
+		}
 		
 	  localStorage.setItem("radiostation", station);
 	  sound = new Howl({
@@ -80,8 +129,8 @@ function playit(station,name)
     });
 	
 	
- 
  	sound.play()
+	
 	
 	}
 	
@@ -89,6 +138,10 @@ function radiostop(daselement)
 {
 	sound.stop();
 	clearInterval(radioTimer)
+	
+	//clearInterval(fadeoutTimer)
+	fadeout_counter = 0;
+	
 	document.getElementById("timer").innerHTML = "00:00:00"; 
 	
 		 /*
@@ -166,10 +219,12 @@ function playitnow(daselement)
 			else {
 				
 				sound.play();
+				//fadeoutTimer =	setInterval(radio_fadeout, 60)
 				radioTimer = setInterval(radiocounter, 1000)
 				}
 	} else {
 		sound.play();
+		//fadeoutTimer = setInterval(radio_fadeout, 1000)
 		radioTimer = setInterval(radiocounter, 1000)
 	
 	

@@ -748,14 +748,14 @@ $station = 'station_ffn';
 $output[] =station_curl($station,constant($station));
 
 
-
+*/
 $station = 'station_bayerischer_Rundfunk';
 $output[] =station_curl($station,constant($station));
-*/
 
+/*
 $station = 'station_sunshine_live';
 $output[] =station_curl($station,constant($station));
-
+*/
 
 
 
