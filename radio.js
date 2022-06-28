@@ -1,3 +1,5 @@
+const radioanzahl = 243;
+
 	function roundToTwo(num) {
     return +(Math.round(num + "e+2")  + "e-2");
 }
@@ -296,7 +298,7 @@ const radio_after = [
 
 
 chat.radio_intro = {
-	text: 'Au ja, lass uns ein bisschen Musik hören 😍',
+	text: 'Au ja, lass uns ein bisschen Musik hören 😍 Inzwischen kenne ich schon <b>'+radioanzahl+'</b> Radiosender.',
 	next: 'radio_kategorie_wahl'
   
 }
